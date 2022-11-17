@@ -1,0 +1,51 @@
+
+ {
+  "color_two": {
+    "main_background": "hsl(0, 0%, 90%)",
+    "toggle_and_keypad_background": "hsl(0, 5%, 81%)",
+    "unactive_toggler": "hsl(0, 5%, 81%)",
+    "screen_background": "hsl(0, 0%, 93%)",
+    "delete_and_reset_key_background": "hsl(185, 42%, 37%)",
+    "delete_and_reset_key_shadow": "hsl(185, 58%, 25%)",
+    "equals_key_and_active_toggler_background": "hsl(25, 98%, 40%)",
+    "equals_key_shadow": "hsl(25, 99%, 27%)",
+    "remaining_key_background": "hsl(45, 7%, 89%)",
+    "remaining_key_shadow": "hsl(35, 11%, 61%)",
+    "primary_text_color": "hsl(60, 10%, 19%)",
+    "equals_text_color": "hsl(0, 0%, 100%)",
+    "delete_reset_text_color": "hsl(0, 0%, 100%)",
+    "header_and_display_text_color": "hsl(60, 10%, 19%)"
+  },
+  "color_one": {
+    "main_background": "hsl(222, 26%, 31%)",
+    "toggle_and_keypad_background": "hsl(223, 31%, 20%)",
+    "unactive_toggler": "hsl(223, 31%, 20%)",
+    "screen_background": "hsl(224, 36%, 15%)",
+    "delete_and_reset_key_background": "hsl(225, 21%, 49%)",
+    "delete_and_reset_key_shadow": "hsl(224, 28%, 35%)",
+    "equals_key_and_active_toggler_background": "hsl(6, 63%, 50%)",
+    "equals_key_shadow": "hsl(6, 70%, 34%)",
+    "remaining_key_background": "hsl(30, 25%, 89%)",
+    "remaining_key_shadow": "hsl(28, 16%, 65%)",
+    "primary_text_color": "hsl(221, 14%, 31%)",
+    "equals_text_color": "hsl(0, 0%, 100%)",
+    "delete_reset_text_color": "hsl(0, 0%, 100%)",
+    "header_and_display_text_color": "hsl(0, 0%, 100%)"
+  },
+  "color_three": {
+    "main_background": "hsl(268, 75%, 9%)",
+    "toggle_and_keypad_background": "hsl(268, 71%, 12%)",
+    "unactive_toggler": "hsl(268, 71%, 12%)",
+    "screen_background": "hsl(268, 71%, 12%)",
+    "delete_and_reset_key_background": "hsl(281, 89%, 26%)",
+    "delete_and_reset_key_shadow": "hsl(285, 91%, 52%)",
+    "equals_key_and_active_toggler_background": "hsl(176, 100%, 44%)",
+    "equals_key_shadow": "hsl(177, 92%, 70%)",
+    "remaining_key_background": "hsl(268, 47%, 21%)",
+    "remaining_key_shadow": "hsl(290, 70%, 36%)",
+    "primary_text_color": "hsl(52, 100%, 62%)",
+    "equals_text_color": "hsl(198, 20%, 13%)",
+    "delete_resets_text_color": "hsl(0, 0%, 100%)",
+    "header_and_display_text_color": "hsl(52, 100%, 62%)"
+  }
+}

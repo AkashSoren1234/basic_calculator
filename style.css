@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  width: 350px;
+  padding: 1rem;
+  font-family: "League Spartan", sans-serif;
+  min-height: 100vh;
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 1.8rem;
+  color: hsl(60, 10%, 19%);
+}
+
+.theme-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theme-title {
+  margin-right: 1rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: hsl(60, 10%, 19%);
+}
+
+.theme-indicator {
+  display: flex;
+  justify-content: center;
+}
+
+.color-indicator {
+  margin: 0 0.65rem;
+  color: hsl(60, 10%, 19%);
+}
+
+.theme-color-switcher {
+  background-color: hsl(0, 5%, 81%);
+  height: 1rem;
+  display: flex;
+  width: max-content;
+  height: 1.6rem;
+  text-align: center;
+  padding: 0.3rem 0.2rem;
+  border-radius: 0.8rem;
+}
+
+.theme-color-switcher div {
+  width: 1.2rem;
+  margin: 0 0.25rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+#color-two {
+  background-color: hsl(25, 98%, 40%);
+}
+
+#color-one {
+  background-color: hsl(0, 5%, 81%);
+}
+
+#color-three {
+  background-color: hsl(0, 5%, 81%);
+}
+
+.display-output-container {
+  margin: 1rem 0;
+  text-align: right;
+  height: 5rem;
+  border-radius: 0.7rem;
+  background-color: hsl(0, 0%, 93%);
+  color: hsl(60, 10%, 19%);
+}
+
+.display-output {
+  padding-top: 1.5rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+
+.button-container {
+  background-color: hsl(0, 5%, 81%);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.button-container button {
+  font-size: 1.3rem;
+  padding: 0.7rem 1rem;
+  border-color: transparent;
+  border-radius: 0.4rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.numbers {
+  color: hsl(60, 10%, 19%);
+  background-color: hsl(45, 7%, 89%);
+  box-shadow: 0 4px 3px 1px hsl(35, 11%, 61%);
+}
+
+.numbers:active {
+  box-shadow: 0 0 2px 3px hsl(35, 11%, 61%);
+}
+
+.decimal {
+  color: hsl(60, 10%, 19%);
+  background-color: hsl(45, 7%, 89%);
+  box-shadow: 0 4px 3px 1px hsl(35, 11%, 61%);
+}
+
+.decimal:active {
+  box-shadow: 0 0 2px 3px hsl(35, 11%, 61%);
+}
+
+.operation {
+  color: hsl(60, 10%, 19%);
+  background-color: hsl(45, 7%, 89%);
+  box-shadow: 0 4px 3px 1px hsl(35, 11%, 61%);
+}
+
+.operation:active {
+  box-shadow: 0 0 2px 3px hsl(35, 11%, 61%);
+}
+
+.reset {
+  grid-column: 1/3;
+  padding: 1rem;
+  background-color: hsl(185, 42%, 37%);
+  text-transform: uppercase;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0 4px 3px 1px hsl(185, 58%, 25%);
+}
+
+.reset:active {
+  box-shadow: 0 0 2px 2px hsl(185, 58%, 25%);
+}
+
+.equals {
+  grid-column: 3/5;
+  background-color: hsl(25, 98%, 40%);
+  box-shadow: 0 4px 3px 1px hsl(25, 99%, 27%);
+  color: hsl(0, 0%, 100%);
+}
+
+.equals:active {
+  box-shadow: 0 0 2px 3px hsl(25, 99%, 27%);
+}
+
+.delete {
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  font-size: 1rem;
+  background-color: hsl(185, 42%, 37%);
+  box-shadow: 0 4px 3px 1px hsl(185, 58%, 25%);
+}
+
+.delete:active {
+  box-shadow: 0 0 2px 3px hsl(185, 58%, 25%);
+}
